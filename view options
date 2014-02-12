@@ -1,0 +1,27 @@
+view options
+
+----------------------------
+filters:
+-- theatre (checkbox)
+-- movie (checkbox)
+-- tags  (checkbox)
+-- times (slider)
+
+----------------------------
+groupings:
+-- movie title
+  -- tags
+  -- theatres
+  -- times
+-- movie title + tags
+  -- title
+  -- tags
+  -- image
+  -- theatres
+  	-- times
+-- movie title + theatre 
+  -- tags
+  -- times
+-- movie title + theatre + tags
+  -- times
+

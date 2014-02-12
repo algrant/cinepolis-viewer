@@ -1,0 +1,75 @@
+
+/* Positional Layout */
+* { margin: 0; padding: 0; border: 0; font-family: sans-serif;}
+
+.tag {
+	padding: 2px 4px;
+	margin: 5px;
+	white-space: nowrap;
+	background-color: #f7f7f9;
+	border: 2px solid black;
+	border-radius:5px;
+	text-align:center;
+}
+.title {
+	text-align:center;
+}
+.tags {
+	margin:auto;
+}
+.img-holder {
+	position:relative;
+}
+.overlay-tag {
+	float:left;
+}
+.overlay-tag-holder {
+	position:absolute;
+}
+.tag-Dig {
+	background:red;
+}
+.tag-Sub {
+	background:orange;
+}
+.tag-Esp {
+	background:yellow;
+}
+.tag-3D {
+	background:green;
+}
+.tag-4DX {
+	background:blue;
+}
+img {
+	width:100%;
+}
+.theatre {
+	float:top;
+}
+.showings {
+	float:left;
+}
+.movie {
+	width:200px;
+}
+
+.filterbox {
+	width:300px;
+	display:inline-block;
+}
+
+#tags_filter .filterbox {
+	width:150px;
+}
+
+.movies {
+	display:block;
+}
+.panel {
+	margin:5px;
+}
+
+.theatre_check, .movie_check{
+	width: 300px;
+}
